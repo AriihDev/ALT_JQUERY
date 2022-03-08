@@ -1,0 +1,12 @@
+#Voiture1{background: url('../images/728-300-4.jpg')no-repeat;height: 300px;width: 200px;}
+#Voiture2{background: url('../images/728-300-1.jpg')no-repeat;height: 300px;width: 200px;}
+#Voiture3{background: url('../images/728-300-2.jpg')no-repeat;height: 300px;width: 200px;}
+#Voiture4{background: url('../images/728-300-3.jpg')no-repeat;height: 300px;width: 200px;}
+ul{list-style: none;}
+ul li {float: left;overflow: hidden;position: relative;} /* overflow:hidden pour cacher les blocq qui sont en dehors de ce bloc : on a overflow:scroll ==> pour afficher les contenu dans des scrolling */
+.texte{position: absolute;top: 350px;} /*Position:absolute par rapport au body */
+
+
+
+
+

@@ -1,0 +1,10 @@
+
+ul{list-style:none;margin:0;padding:0}
+/** Pour centrer un bloc avec CSS il faut fixer l'argeur + margin-left:auto;margin-right:auto**/
+#container{width:950px;margin-left:auto;margin-right:auto; margin-top:5%}
+/*#navigation{display:flex}  /*display:flex pour rendre les contenus de bloc affiché horizontalement == display:inline*/
+/*#navigation li ul{display:flex}*/
+#navigation li{width:220px;float:left;background:#F30;text-align:center;font-size:25px;list-style:none}
+
+#navigation li a.acc{text-decoration:none;color:#F90}
+li ul li a{color:cyan;text-decoration:none;}/**cyan=#0FF*/

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <script language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script language="javascript" src="calculatrice.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    
+    <fieldset class="formNative">
+        <h1>Calculatrice</h1>
+
+<p>
+    Nombre 1 <input type="text" id="nbr1">
+</p>
+
+<div>
+    <p>
+Nombre 2 <input type="text" id="nbr2">
+    </p>
+</div>
+<div>
+    <button type="button" id="ValDiv" value="/" onclick="division()">/</button> 
+    <button type="button" id="ValPos" value="+" onclick="addition()" > + </button>
+    <button type="button" id="ValMoi" value="-" onclick="soustraction()"> - </button>
+    <button type="button" id="ValMul" value="*" onclick="multiplication()" > * </button>
+</div>
+<span></span>
+<div>
+    <p>
+        <input type="text" readonly="readonly" id="res">
+    </p>
+</div>
+
+    
+</fieldset>
+
+</body>
+</html>
